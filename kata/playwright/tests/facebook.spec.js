@@ -21,6 +21,5 @@ test('ผู้ใช้Facebook เข้าสู่ระบบ แล้้�
     await page.getByRole('button', { name: 'คุณคิดอะไรอยู่ Kop' }).click();
     await page.getByLabel('คุณคิดอะไรอยู่ Kop').fill('Hello playwright');
     await page.getByLabel('โพสต์', { exact: true }).click();
-
   });
 });
